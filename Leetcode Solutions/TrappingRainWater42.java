@@ -1,5 +1,6 @@
 
 public class TrappingRainWater42 {
+     // leetcode 42
     public int trap(int[] height) {
         int n = height.length;
         int left[] = new int[n];
