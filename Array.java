@@ -1,7 +1,7 @@
 public class Array {
     public static void main(String[] args) {
         int[] arr = { 35, 12, 1, 10, 36, 1, 4, 5, 6 };
-
+        System.out.println("arr length"+arr.length);
         // Find max int in array
         int maxInt = arr[0];
         for (int i = 1; i < arr.length; i++) {
