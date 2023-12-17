@@ -2,7 +2,7 @@ public class Array {
     public static void main(String[] args) {
         int[] arr = { 35, 12, 1, 10, 36, 1, 4, 5, 6 };
         System.out.println("arr length"+arr.length);
-        // Find max int in array
+        // Find max or largest element  int in array
         int maxInt = arr[0];
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > maxInt) {
@@ -11,7 +11,7 @@ public class Array {
         }
         System.out.println("Max int " + maxInt);
 
-        // Find second max int in array
+        // Find second max // second largest element int in array
         int HighestInt = arr[0], SecondHighest = -1;
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > HighestInt) {

@@ -100,4 +100,20 @@ public class Array {
             }
         }
     }
+
+    // leetcode 189. Rotate Array
+    public void rotate(int[] nums, int k) {
+        int temp[] = new int[k];
+        for (int i = 0; i < nums.length - 1; i++) {
+
+        }
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
+        Array arrObj = new Array();
+        arrObj.rotate(nums, 2);
+    }
 }
