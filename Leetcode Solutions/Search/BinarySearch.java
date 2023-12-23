@@ -1,7 +1,7 @@
+package Search;
 
-public class BinarySearch704 {
-    // leetcode 704
-
+public class BinarySearch {
+    // leetcode 704. Binary Search
     public int search(int[] nums, int target) {
         int n = nums.length;
         int low = 0;
@@ -18,4 +18,6 @@ public class BinarySearch704 {
         }
         return -1;
     }
+
+
 }
