@@ -1,13 +1,13 @@
+package Recursion;
+
 public class RecursionBasics {
     static void Print(int N) {
         if (N <= 0) {
             return;
         }
         System.out.println(N);
-
         Print(N - 1);
         // System.out.println(N);
-
     }
 
     static int Fibonacci(int n) {
@@ -72,7 +72,7 @@ public class RecursionBasics {
     }
 
     public static void main(String[] args) {
-        // Print(5);
+        Print(5);
         // int n = 8;
         // for (int i = 0; i < n; i++) {
         // System.out.println(Fibonacci(i));
@@ -83,6 +83,6 @@ public class RecursionBasics {
         // int[] arr = { 1, 2, 3, 4, 6 };
         // System.out.println(ArrAdd(0, arr));
         // System.out.println(SumOfDigits(45));
-        System.out.println(uniquePaths(7, 3));
+        // System.out.println(uniquePaths(7, 3));
     }
 }
