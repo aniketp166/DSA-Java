@@ -37,6 +37,7 @@ public class Array {
             System.out.print(arr[i] + " ");
         }
         System.out.println(" ");
+        
         // reverse array in groups
         int[] arrSub = { 35, 12, 1, 10, 36, 1, 4, 5, 6, 1, 2 };
         int k = 3;
